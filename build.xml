@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<project name="PROJECTNAME" default="main" basedir=".">
 		
-		<property name="working.dir" value="..\\"/>
+		<property name="working.dir" value=".\\"/>
 		<property name="build.target" value="${working.dir}/target"/>
 		<property name="project.target" value="${build.target}/project"/>
 		<property name="project.build.output" value="${project.target}/output"/>
 		<property name="project.java.classes" value="${project.build.output}/java-classes"/>
-		<property name="project.java.source" value="..\\src\\main\\java"/>
-		<property name="project.source.lib" value="..\\lib"/>
+		<property name="project.java.source" value=".\\src\\main\\java"/>
+		<property name="project.source.lib" value=".\\lib"/>
 		<property name="compiler.encoding" value="UTF-8"/>
-		<property name="project.java.manifest" value="..\\manifest\\MANIFEST.MF"/>
+		<property name="project.java.manifest" value=".\\manifest\\MANIFEST.MF"/>
 		
 		
 		<target name="cleanup">
